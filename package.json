@@ -1,0 +1,35 @@
+{
+  "name": "smoothies2go_express_api",
+  "version": "1.0.0",
+  "description": "Smoothies2go Backend Project developed in Express with Mongoose as Database",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sampreet-chawla/smoothies2go_express_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sampreet-chawla/smoothies2go_express_api/issues"
+  },
+  "homepage": "https://github.com/sampreet-chawla/smoothies2go_express_api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
