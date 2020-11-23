@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const logger = require("morgan");
 const { PORT = 4000, NODE_ENV = "development" } = process.env;
-const authRouter = require("./controllers/user");
+const authRouter = require("./controllers/userRoutes");
 const auth = require("./auth");
 //CORS
 const cors = require("cors");
@@ -30,5 +30,11 @@ app.get("/", (req, res) => {
 
 const itemRouter = require("./controllers/itemRoutes");
 app.use("/api/items/", itemRouter);
+
+const cartitemRouter = require("./controllers/cartitemRoutes");
+app.use("/api/cartitems/", cartitemRouter);
+
+const orderRouter = require("./controllers/orderRoutes");
+app.use("/api/orders/", orderRouter);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}!`));

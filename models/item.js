@@ -1,6 +1,5 @@
 const { Schema, model } = require("mongoose");
 
-// category:string item_name:string:uniq description:string image_url:string price:decimal{5,2}
 const ItemSchema = new Schema(
   {
     category: { type: String, required: true },
