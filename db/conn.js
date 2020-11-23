@@ -12,7 +12,7 @@ mongoose.connect(MONGODBURI, {
 const db = mongoose.connection;
 
 db.on("error", (error) => console.log("Db connection error - ", error));
-db.on("connected", () => console.log("Db connected- ", MONGODBURI));
+db.on("connected", () => console.log("Db connected... "));
 db.on("disconnected", () => console.log("Db disconnected "));
 
 module.exports = mongoose;

@@ -4,7 +4,8 @@ const itemsData = require("../db/itemsData.json");
 
 // Seed the items
 // Be careful as use with existing cart-items and orders will it will bring inconsistencies with Item.ObjectId
-router.post("/seed", async (req, res) => {
+// Made it as a GET Method to be able to execute from the browser
+router.get("/seed", async (req, res) => {
   try {
     await Item.deleteMany({});
     const items = await Item.insertMany(itemsData);
@@ -19,6 +20,36 @@ router.get("/", async (req, res) => {
   try {
     const items = await Item.find({});
     res.status(200).json({ data: items });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Get all items grouped by Category
+router.get("/category-groups", async (req, res) => {
+  try {
+    const items = await Item.find({});
+
+    // Group the results by Categories if items are available.
+    const categoriesArr = [];
+    if (items && items.length > 0) {
+      items.forEach((itemCurr) => {
+        let added = false;
+        categoriesArr.forEach((catCurr) => {
+          if (catCurr.category === itemCurr.category) {
+            catCurr.items.push(itemCurr);
+            added = true;
+          }
+        });
+        if (!added) {
+          categoriesArr.push({
+            category: itemCurr.category,
+            items: [itemCurr],
+          });
+        }
+      });
+    }
+    res.status(200).json({ data: categoriesArr });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
