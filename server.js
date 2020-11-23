@@ -12,8 +12,8 @@ const mongoose = require("./db/conn");
 
 // Add the middleware code needed to accept incoming data and add it to req.body
 //NODE_ENV === "production" ? app.use(cors(corsOptions)) : app.use(cors());
-// Enabled to allow POSTMAN testing. 
-app.use(cors();
+// Enabled to allow POSTMAN testing.
+app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(logger("tiny"));
