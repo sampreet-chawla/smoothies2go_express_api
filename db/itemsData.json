@@ -4,7 +4,7 @@
     "item_name": "Sunrise SunSet",
     "description": "strawberries, pineapple, mango & orange juice (360 cal)",
     "image_url": "https://images.unsplash.com/photo-1573500883495-6c9b16d88d8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    "thumbnail_image_url": "./img/thumbnail/sunrise_sunset_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/plNb7nT.jpg",
     "price": 5.59
   },
   {
@@ -12,7 +12,7 @@
     "item_name": "Detox Surprise",
     "description": "spinach, kale, mango, pineapple, banana & fresh ginger (naturally sweetened) (180 cal)",
     "image_url": "https://images.unsplash.com/flagged/photo-1557753478-b9fb74f39eb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80",
-    "thumbnail_image_url": "./img/thumbnail/detox_surprise_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/jAUNSyA.jpg",
     "price": 5.59
   },
   {
@@ -20,7 +20,7 @@
     "item_name": "Berry Boost",
     "description": "acai, pomegranate, banana, blueberries & strawberries (170cal)",
     "image_url": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80",
-    "thumbnail_image_url": "./img/thumbnail/berry_boost_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/VpmmT22.jpg",
     "price": 5.59
   },
   {
@@ -28,7 +28,7 @@
     "item_name": "Pineapple Special",
     "description": "fresh pineapple, mint & chia seed (55cal)",
     "image_url": "https://images.unsplash.com/photo-1596392301391-e8622b210bd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-    "thumbnail_image_url": "./img/thumbnail/pineapple_special_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/bfpgp4V.jpg",
     "price": 5.59
   },
   {
@@ -36,7 +36,7 @@
     "item_name": "Mango Madness",
     "description": "mango, pineapple & non-fat yogurt (400 cal)",
     "image_url": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80",
-    "thumbnail_image_url": "./img/thumbnail/mango_madness_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/wAYdm1T.jpg",
     "price": 5.59
   },
   {
@@ -44,7 +44,7 @@
     "item_name": "Sunrise SunSet",
     "description": "strawberries, pineapple, mango & orange juice (360 cal)",
     "image_url": "https://images.unsplash.com/photo-1573500883495-6c9b16d88d8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    "thumbnail_image_url": "./img/thumbnail/sunrise_sunset_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/plNb7nT.jpg",
     "price": 5.59
   },
   {
@@ -52,7 +52,7 @@
     "item_name": "Berry Boost",
     "description": "acai, pomegranate, banana, blueberries & strawberries (170cal)",
     "image_url": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80",
-    "thumbnail_image_url": "./img/thumbnail/berry_boost_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/VpmmT22.jpg",
     "price": 5.59
   },
   {
@@ -60,7 +60,7 @@
     "item_name": "Berry Bum",
     "description": "strawberries, banana & chocolate (550 cal)",
     "image_url": "https://images.unsplash.com/photo-1543573852-1a71a6ce19bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "thumbnail_image_url": "./img/thumbnail/berry_bum_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/bpdWdxT.jpg",
     "price": 5.59
   },
   {
@@ -68,7 +68,7 @@
     "item_name": "Pineapple Special",
     "description": "fresh pineapple, mint & chia seed (55cal)",
     "image_url": "https://images.unsplash.com/photo-1596392301391-e8622b210bd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-    "thumbnail_image_url": "./img/thumbnail/pineapple_special_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/bfpgp4V.jpg",
     "price": 5.59
   },
   {
@@ -76,15 +76,15 @@
     "item_name": "Detox Surprise",
     "description": "spinach, kale, mango, pineapple, banana & fresh ginger (naturally sweetened) (180 cal)",
     "image_url": "https://images.unsplash.com/flagged/photo-1557753478-b9fb74f39eb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80",
-    "thumbnail_image_url": "./img/thumbnail/detox_surprise_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/jAUNSyA.jpg",
     "price": 5.59
   },
   {
     "category": "Super Veggie Smoothies",
     "item_name": "Pinacolada",
-    "description": "spinach, kale, mango, pineapple, banana & fresh ginger (naturally sweetened) (180 cal)",
-    "image_url": "https://images.unsplash.com/flagged/photo-1557753478-b9fb74f39eb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80",
-    "thumbnail_image_url": "./img/thumbnail/pinacolada_200_200.jpg",
+    "description": "avocado, pineapple, spinach, kale, coconut & lime (600 cal)",
+    "image_url": "https://images.unsplash.com/photo-1584587727565-a486d45d58b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80",
+    "thumbnail_image_url": "https://i.imgur.com/25qbYaF.jpg",
     "price": 5.59
   },
   {
@@ -92,7 +92,7 @@
     "item_name": "Green Mania",
     "description": "spinach, kale, mango, pineapple & banana (410 cal)",
     "image_url": "https://images.unsplash.com/photo-1588673523898-687eaf18c036?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=723&q=80",
-    "thumbnail_image_url": "./img/thumbnail/green_mania_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/FuzsItm.jpg",
     "price": 5.59
   },
   {
@@ -100,7 +100,7 @@
     "item_name": "Cucumber Egg Wrap",
     "description": "fresh cucumber, egg white wrap (176) cal",
     "image_url": "https://images.unsplash.com/photo-1558649332-e896e6f71fb4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-    "thumbnail_image_url": "./img/thumbnail/cucumber_egg_wrap_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/cbaWCLm.jpg",
     "price": 7.49
   },
   {
@@ -108,15 +108,15 @@
     "item_name": "Corn Cheese Sandwitch",
     "description": "grilled brown bread with sweet corn and melted cheddar cheese (320 cal)",
     "image_url": "https://images.unsplash.com/photo-1528736235302-52922df5c122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2022&q=80",
-    "thumbnail_image_url": "./img/thumbnail/corn_cheese_sandwitch_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/Uwj0NX5.jpg",
     "price": 7.49
   },
   {
     "category": "Sides and Cookies",
     "item_name": "Veggie Salad",
     "description": "peas, avacado, beet salad (120cal)",
-    "image_url": "https://images.unsplash.com/photo-1528736235302-52922df5c122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2022&q=80",
-    "thumbnail_image_url": "./img/thumbnail/veggie_salad_200_200.jpg",
+    "image_url": "https://images.unsplash.com/photo-1537785713284-0015ce8a145c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+    "thumbnail_image_url": "https://i.imgur.com/YRm1kHe.jpg",
     "price": 1.49
   },
   {
@@ -124,7 +124,7 @@
     "item_name": "Apple",
     "description": "a whole fruit apple (72 cal)",
     "image_url": "https://images.unsplash.com/photo-1595739820243-918e61e72229?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80",
-    "thumbnail_image_url": "./img/thumbnail/whole_fruit_apple_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/1HvwnZA.jpg",
     "price": 1.49
   },
   {
@@ -132,7 +132,7 @@
     "item_name": "Cookie",
     "description": "a chocolate chunk cookie or snickerdoodle. (290/330 cal)",
     "image_url": "https://images.unsplash.com/photo-1600046191448-e1bd56cf4cea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-    "thumbnail_image_url": "./img/thumbnail/cookie_200_200.jpg",
+    "thumbnail_image_url": "https://i.imgur.com/qbGGb1N.jpg",
     "price": 1.49
   }
 ]
