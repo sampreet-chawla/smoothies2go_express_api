@@ -46,7 +46,7 @@ router.put("/id/:id/qty/:qty", async (req, res) => {
 // Delete a cart-item
 router.delete("/id/:id", async (req, res) => {
   try {
-    const result = await CartItem.findOneAndRemove(req.params.id);
+    const result = await CartItem.findByIdAndDelete(req.params.id);
     res.status(204).json({ data: result });
   } catch (err) {
     res.json({ status: 500, error: err.message });
