@@ -17,6 +17,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(logger("tiny"));
+app.use(express.static("."));
 app.use("/auth", authRouter);
 
 // Add Custom Routers
@@ -39,4 +40,7 @@ app.use("/api/cartitems/", cartitemRouter);
 const orderRouter = require("./controllers/orderRoutes");
 app.use("/api/orders/", orderRouter);
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}!`));
+const stripeRouter = require("./controllers/stripeRoutes");
+app.use("/api/stripe-payment/", stripeRouter);
+
+app.listen(PORT, () => console.log(`Server running on port ${PORT} !`));
