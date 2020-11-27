@@ -17,7 +17,7 @@ router.get("/id/:orderId", async (req, res) => {
 });
 
 // Update the Order Paid Status
-router.put("/paid/id/:orderId/user/:userId", async (req, res) => {
+router.put("/paid/id/:orderId", async (req, res) => {
   try {
     const order = await Order.findByIdAndUpdate(
       { _id: req.params.orderId },
@@ -25,7 +25,7 @@ router.put("/paid/id/:orderId/user/:userId", async (req, res) => {
       { new: true }
     );
     const result = await CartItem.updateMany(
-      { user: req.params.userId, order_status: false },
+      { user: order.user, order_status: false },
       { order_status: true }
     );
     res.status(200).json({ data: order });
