@@ -8,6 +8,7 @@ const ItemSchema = new Schema(
     image_url: { type: String, required: true },
     thumbnail_image_url: { type: String, required: true },
     price: { type: Number, required: true },
+    is_popular: { type: Boolean, default: false },
   },
   { timestamps: true }
 );

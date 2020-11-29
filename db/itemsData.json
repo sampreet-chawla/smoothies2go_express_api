@@ -13,7 +13,8 @@
     "description": "strawberries, pineapple, mango & orange juice (360 cal)",
     "image_url": "https://images.unsplash.com/photo-1573500883495-6c9b16d88d8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     "thumbnail_image_url": "https://i.imgur.com/plNb7nT.jpg",
-    "price": 5.59
+    "price": 5.59,
+    "is_popular": true
   },
   {
     "category": "Fruit Blend Smoothies",
@@ -21,7 +22,8 @@
     "description": "acai, pomegranate, banana, blueberries & strawberries (170cal)",
     "image_url": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80",
     "thumbnail_image_url": "https://i.imgur.com/VpmmT22.jpg",
-    "price": 5.59
+    "price": 5.59,
+    "is_popular": true
   },
   {
     "category": "Fruit Blend Smoothies",
@@ -37,7 +39,8 @@
     "description": "fresh pineapple, mint & chia seed (55cal)",
     "image_url": "https://images.unsplash.com/photo-1596392301391-e8622b210bd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
     "thumbnail_image_url": "https://i.imgur.com/bfpgp4V.jpg",
-    "price": 5.59
+    "price": 5.59,
+    "is_popular": true
   },
   {
     "category": "Super Veggie Smoothies",
@@ -45,7 +48,8 @@
     "description": "spinach, kale, mango, pineapple, banana & ginger (180 cal)",
     "image_url": "https://images.unsplash.com/flagged/photo-1557753478-b9fb74f39eb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80",
     "thumbnail_image_url": "https://i.imgur.com/jAUNSyA.jpg",
-    "price": 5.59
+    "price": 5.59,
+    "is_popular": true
   },
   {
     "category": "Super Veggie Smoothies",

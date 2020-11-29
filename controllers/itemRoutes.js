@@ -33,6 +33,15 @@ router.get("/category-groups", async (req, res) => {
     // Group the results by Categories if items are available.
     const categoriesArr = [];
     if (items && items.length > 0) {
+      // Add the popular items in Popular category
+      const popularItems = items.filter((item) => item.is_popular);
+      console.log("Adding Popular items: ", popularItems);
+      categoriesArr.push({
+        category: "Popular Items (Smoothie)",
+        items: popularItems,
+      });
+
+      // Add all items grouped by their categories.
       items.forEach((itemCurr) => {
         let added = false;
         categoriesArr.forEach((catCurr) => {
