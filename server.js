@@ -28,20 +28,19 @@ app.get("/", (req, res) => {
 });
 
 // Add Custom Routes
-// const itemRouter = require('./controllers/itemRoutes');
-//app.use('/api/items/', auth, itemRouter);
 
+// Note - No Authentication Token required for Items
 const itemRouter = require("./controllers/itemRoutes");
 app.use("/api/items/", itemRouter);
 
 const cartitemRouter = require("./controllers/cartitemRoutes");
-app.use("/api/cartitems/", cartitemRouter);
+app.use("/api/cartitems/", auth, cartitemRouter);
 
 const orderRouter = require("./controllers/orderRoutes");
-app.use("/api/orders/", orderRouter);
+app.use("/api/orders/", auth, orderRouter);
 
 const stripeRouter = require("./controllers/stripeRoutes");
-app.use("/api/stripe-payment/", stripeRouter);
+app.use("/api/stripe-payment/", auth, stripeRouter);
 
 ////////////// ATTEMPT TO CHECK EXISTING ROUTES
 // Reference - https://stackoverflow.com/questions/14934452/how-to-get-all-registered-routes-in-express
