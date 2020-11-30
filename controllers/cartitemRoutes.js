@@ -28,7 +28,6 @@ router.post("/", async (req, res) => {
 
 // Update the item quantity in the cart-item
 router.put("/id/:id/qty/:qty", async (req, res) => {
-  console.log(req.params.qty);
   try {
     const cartItem = await CartItem.findByIdAndUpdate(
       req.params.id,

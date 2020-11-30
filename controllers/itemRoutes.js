@@ -35,7 +35,6 @@ router.get("/category-groups", async (req, res) => {
     if (items && items.length > 0) {
       // Add the popular items in Popular category
       const popularItems = items.filter((item) => item.is_popular);
-      console.log("Adding Popular items: ", popularItems);
       categoriesArr.push({
         category: "Popular Items (Smoothie)",
         items: popularItems,

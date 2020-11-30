@@ -40,7 +40,6 @@ router.post("/create-session/", async (req, res) => {
       success_url: `${FRONTEND_DOMAIN}?success=true&orderId=${order._id}`,
       cancel_url: `${FRONTEND_DOMAIN}?canceled=true`,
     });
-    console.log("session created..", session.id);
     res.status(200).json({
       id: session.id,
       message: "success",

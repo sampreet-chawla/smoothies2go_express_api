@@ -5,7 +5,6 @@ const logger = require("morgan");
 const { PORT = 4000, NODE_ENV = "development" } = process.env;
 const authRouter = require("./controllers/userRoutes");
 const auth = require("./auth");
-//CORS
 const cors = require("cors");
 const corsOptions = require("./configs/cors.js");
 const mongoose = require("./db/conn");
@@ -20,14 +19,12 @@ app.use(logger("tiny"));
 app.use(express.static("."));
 app.use("/auth", authRouter);
 
-// Add Custom Routers
+// Add Custom Routes
 
 // Default route
 app.get("/", (req, res) => {
   res.json({ status: 200, msg: "Welcome to Smoothies 2 Go Express backend." });
 });
-
-// Add Custom Routes
 
 // Note - No Authentication Token required for Items
 const itemRouter = require("./controllers/itemRoutes");
@@ -41,24 +38,5 @@ app.use("/api/orders/", auth, orderRouter);
 
 const stripeRouter = require("./controllers/stripeRoutes");
 app.use("/api/stripe-payment/", auth, stripeRouter);
-
-////////////// ATTEMPT TO CHECK EXISTING ROUTES
-// Reference - https://stackoverflow.com/questions/14934452/how-to-get-all-registered-routes-in-express
-// var route,
-//   routes = [];
-
-// app._router.stack.forEach(function (middleware) {
-//   if (middleware.route) {
-//     // routes registered directly on the app
-//     routes.push(middleware.route);
-//   } else if (middleware.name === "router") {
-//     // router middleware
-//     middleware.handle.stack.forEach(function (handler) {
-//       route = handler.route;
-//       route && routes.push(route);
-//     });
-//   }
-// });
-// console.log("Configured Routes: ", routes);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT} !`));
