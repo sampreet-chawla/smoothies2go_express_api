@@ -36,7 +36,7 @@ router.get("/category-groups", async (req, res) => {
       // Add the popular items in Popular category
       const popularItems = items.filter((item) => item.is_popular);
       categoriesArr.push({
-        category: "Popular Items (Smoothie)",
+        category: "Popular Items",
         items: popularItems,
       });
 
